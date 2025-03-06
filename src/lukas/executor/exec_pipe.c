@@ -29,7 +29,7 @@ static void	close_pipe_and_wait(int pipefd[2], pid_t pid1, pid_t pid2)
 }
 
 /*
-** exec_pipe:
+** exec_pipe
 ** Executes a pipe operation between two commands.
 ** - Creates a pipe
 ** - Forks two child processes
